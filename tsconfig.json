@@ -1,0 +1,11 @@
+{
+  	"compilerOptions": {
+	    "esModuleInterop": true,
+	    "jsx": "react",
+		"baseUrl": "./",
+	    "paths": {
+        	"~stitches": ["src/stitches.ts"],
+        	"~utils": ["src/stitches-utils/utils.ts"]
+    	}
+  	}
+}

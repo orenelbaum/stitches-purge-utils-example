@@ -1,0 +1,24 @@
+{
+  "name": "stitches-purge-utils",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "stitches:purge-utils": "stitches-purge-utils --configuredStitchesPath ~stitches --srcDir ./src --utilsInputDir ./src/stitches-utils --utilsOutputDir ./stitches/purged-utils"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@stitches/react": "^1.2.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "stitches-purge-utils": "^0.0.7",
+    "vite": "^2.5.10"
+  }
+}
